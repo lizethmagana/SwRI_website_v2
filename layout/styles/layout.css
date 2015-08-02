@@ -222,7 +222,7 @@ table tbody tr.dark{}
 
 body{color:#979797; background:url("images/magnetosphere_00802bw_copy.jpg") top center no-repeat fixed #2B2B2B; background-size:cover;}
 
-.imgholder, .imgl, .imgr{border-color:#D6D6D6;}
+.imgholder, .imgl, .imgr{border-color:#D6D6D6; width:15pc;}
 
 /* Rows */
 .wrapper a{color:#76C38F; background-color:transparent;}
