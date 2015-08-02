@@ -26,7 +26,7 @@ File: Layout CSS
 #header{padding:40px 0;}
 #header::after{display:block; visibility:hidden; height:0; clear:both; content:"";}
 
-#header #logo{float:left;}
+/*#header #logo{float:left;}*/
 #header #logo h1, #header #logo p{font-weight:normal; font-style:normal; text-transform:none;}
 #header #logo h1{font-size:28px; line-height:22px;}
 #header #logo p{margin:0; padding:0; font-size:11px;}
@@ -101,7 +101,7 @@ File: Layout CSS
 nav ul{margin:0; padding:0; list-style:none;}
 
 /* Top Navigation */
-#header nav{display:block; float:right; margin:0; padding:0; clear:right;}
+#header nav{display:block; margin:0; padding:0; clear:right;}
 #header nav ul{}
 #header nav ul li{display:inline-block; margin-left:10px; text-transform:uppercase;}
 #header nav ul li:first-child{margin-left:0;}

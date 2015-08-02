@@ -22,6 +22,8 @@ img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; l
 .imgholder, .imgl, .imgr{padding:4px; border:1px solid; text-align:center;}
 .imgl{margin:0 15px 15px 0; clear:left;}
 .imgr{margin:0 0 15px 15px; clear:right;}
+.imgb{margin:0 0 15px 15px; clear:both;max-width:40%;height:auto;}
+.imgt{margin:0 0 0 0; clear:both;max-width:500%;height:auto;}
 
 
 /* Generalise
