@@ -150,10 +150,11 @@ input, textarea, select{resize:none; outline:none; font-size:12px; font-family:G
 
 /* Tables
 ---------------------------------------------------------------------------------------------------------------*/
-table{width:100%; border-collapse:collapse; table-layout:auto; vertical-align:top; margin-bottom:15px;}
+table{width:100%; border-collapse:collapse; table-layout:auto; vertical-align:middle; margin-bottom:15px;}
+table.wide{width:50%; border-collapse:collapse; table-layout:auto; vertical-align:middle; margin-bottom:15px;}
 table thead th{border-collapse:collapse; text-align:center; table-layout:auto; vertical-align:middle;}
-table tbody td{vertical-align:top; border-collapse:collapse;}
-table thead th, table tbody td{padding:5px; border-collapse:collapse;}
+table tbody td{vertical-align:middle; border-collapse:collapse;}
+table thead th, table tbody td{padding:10px; border-collapse:collapse;}
 table tbody tr.light{}
 table tbody tr.dark{}
 
