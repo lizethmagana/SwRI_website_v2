@@ -27,12 +27,38 @@ $(window).load(function () {
         });
         this.src = grayscale(this.src);
     });
+	
+	// clone image
+    $('.greyscale img').each(function () {
+        var el = $(this);
+        el.css({
+            "position": "absolute"
+        }).wrap("<div class='grayscale_wrapper'>").clone().addClass('img_grayscale').css({
+            "position": "absolute",
+            "z-index": "998",
+            "opacity": "0"
+        }).insertBefore(el).queue(function () {
+            var el = $(this);
+            el.parent().css({
+                "width": 290, /*this.width,*/
+                "height": 190/*this.height*/
+            });
+            el.dequeue();
+        });
+        this.src = grayscale(this.src);
+    });
+    // Fade image 
+    $('.greyscale img').mouseover(function () {
+        $(this).parent().find('img:first').stop().animate({
+            opacity: 1
+        }, 300);
+    });
     // Fade image 
     $('#slider_content img').mouseover(function () {
         $(this).parent().find('img:first').stop().animate({
             opacity: 1
         }, 300);
-    })
+    });
     $('.img_grayscale').mouseout(function () {
         $(this).stop().animate({
             opacity: 0
