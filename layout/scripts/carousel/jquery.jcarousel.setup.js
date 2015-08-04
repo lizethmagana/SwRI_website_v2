@@ -13,7 +13,7 @@ $(document).ready(function () {
     // Autoscroll
     $('.jcarousel').jcarouselAutoscroll({
         autostart: true,
-        interval: 5000
+        interval: 3500
     });
 
     // Hover stop
